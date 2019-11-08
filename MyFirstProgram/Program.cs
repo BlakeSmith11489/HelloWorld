@@ -22,21 +22,21 @@ namespace MyFirstProgram
             while (playerScore < 10)
             {
                 //request input;
-                Console.Write("Increment score: ");
+                Console.Write("Increment wumbo: ");
                 add = Convert.ToInt32(Console.ReadLine());
                 //add score;
                 playerScore += add;
-                Console.Write("Current score: ");
+                Console.Write("Current wumbo: ");
                 Console.WriteLine(playerScore);
             }           
 
             Console.WriteLine("Hello " + playerName);
-            Console.WriteLine("Score of " + playerScore);
+            Console.WriteLine("Wumbo of " + playerScore);
             
             //quotation marks in C# code are used to define a string;
             //A string is used to display text to the user/player;
             // \n is a character in a string that attatches a return character;
-            Console.Write(" This is my first program. Neat!");
+            Console.Write(" This is my 10th program. Neat!");
             
             //Window closes when user presses enter;
             Console.ReadLine();
